@@ -175,7 +175,7 @@ const DoctorList = () => {
 
       {/* Patient Detail Modal */}
       <CustomModal
-        title={"Personal Information"}
+        title={"Patient Details"}
         show={openInfoModal}
         onClose={handleInfoModalClose}
         modalSize="modal-md size-full"
