@@ -1,0 +1,47 @@
+{
+    "doctors": [
+      {
+        "name": "Dr. Anna Taylor",
+        "specialization": "Neurologist",
+        "availability_start_time": "09:00:00",
+        "availability_end_time": "15:00:00"
+      },
+      {
+        "name": "Dr. John Smith",
+        "specialization": "Cardiologist",
+        "availability_start_time": "08:30:00",
+        "availability_end_time": "16:30:00"
+      },
+      {
+        "name": "Dr. Emily Jones",
+        "specialization": "Dermatologist",
+        "availability_start_time": "10:00:00",
+        "availability_end_time": "18:00:00"
+      },
+      {
+        "name": "Dr. Michael Brown",
+        "specialization": "Orthopedic Surgeon",
+        "availability_start_time": "09:15:00",
+        "availability_end_time": "17:15:00"
+      },
+      {
+        "name": "Dr. Sarah Johnson",
+        "specialization": "Pediatrician",
+        "availability_start_time": "08:00:00",
+        "availability_end_time": "16:00:00"
+      },
+      {
+        "name": "Dr. David Wilson",
+        "specialization": "Psychiatrist",
+        "availability_start_time": "11:00:00",
+        "availability_end_time": "19:00:00"
+      },
+      {
+        "name": "Dr. Jessica Lee",
+        "specialization": "Ophthalmologist",
+        "availability_start_time": "08:45:00",
+        "availability_end_time": "16:45:00"
+      }
+    ]
+  }
+  

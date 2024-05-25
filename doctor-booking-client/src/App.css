@@ -1,0 +1,201 @@
+.signup_modal button.btn-close {
+  filter: invert(1);
+  opacity: 1;
+}
+
+.signup_modal .btn-close:focus {
+  box-shadow: none;
+}
+
+.commmon-modal {
+  background-color: rgba(94, 101, 136, 0.9);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sign_up_modal .modal-header button.close {
+  margin-top: -5px;
+  margin-right: 0;
+  margin-left: 4px;
+  opacity: 1;
+  padding: 0;
+}
+
+.sign_up_modal .modal-header button.close span {
+  color: #ffffff;
+}
+
+.sign_up_modal .modal-header button.close span:focus {
+  border: none;
+  outline: none;
+  text-shadow: none;
+}
+
+.modal-header .btn-close {
+  margin: unset;
+  color: #335885;
+}
+
+.bgc-thm {
+  background-color: #335885 !important;
+  color: #ffffff !important;
+}
+
+.font_colour {
+  color: #335885;
+}
+
+.btn-thm {
+  background-color: #335885 !important;
+  border: 2px solid #335885;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-thm.rounded {
+  border-radius: 5px !important;
+}
+
+.btn-thm:hover,
+.btn-thm:active {
+  background-color: #ffffff !important;
+  border-color: #335885 !important;
+  color: #335885 !important;
+}
+
+.btn-thm:hover svg {
+  fill: #335885 !important;
+}
+
+.btn-thm.white:hover,
+.btn-thm.white:active,
+.btn-thm.white:focus {
+  background-color: #335885;
+  border-color: #335885;
+  color: #ffffff;
+}
+
+.btn-thmgreen {
+  background-color: #289a28 !important;
+  border: 2px solid #289a28;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn-thmgreen.rounded {
+  border-radius: 5px !important;
+}
+
+.btn-thmgreen:hover,
+.btn-thmgreen:active {
+  background-color: #ffffff !important;
+  border-color: #289a28 !important;
+  color: #289a28 !important;
+}
+
+.btn-thmgreen:hover svg {
+  fill: #289a28 !important;
+}
+
+.btn-thmgreen.white:hover,
+.btn-thmgreen.white:active,
+.btn-thmgreen.white:focus {
+  background-color: #289a28;
+  border-color: #289a28;
+  color: #ffffff;
+}
+
+.btn-thmblue {
+  background-color: #335885 !important;
+  border: 2px solid #335885;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+  width: 200px;
+  height: 60px;
+}
+
+.btn-thmblue.rounded {
+  border-radius: 5px !important;
+}
+
+.btn-thmblue:hover,
+.btn-thmblue:active {
+  background-color: #ffffff !important;
+  border-color: #335885 !important;
+  color: #335885 !important;
+}
+
+.btn-thmblue:hover svg {
+  fill: #289a28 !important;
+}
+
+.btn-thmblue.white:hover,
+.btn-thmblue.white:active,
+.btn-thmblue.white:focus {
+  background-color: #335885;
+  border-color: #335885;
+  color: #ffffff;
+}
+
+/* SlotBooking.css */
+.slot-booking-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.slots-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.slot {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.slot.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.slot.disabled {
+  background-color: #d7d2d2;
+  color: #ffffff;
+  cursor: not-allowed;
+}
+
+.confirm-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.confirm-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.confirmation-message {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #28a745;
+}
