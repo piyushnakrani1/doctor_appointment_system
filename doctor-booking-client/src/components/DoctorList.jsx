@@ -101,7 +101,7 @@ const DoctorList = () => {
               <div className="card p-2 py-3 text-center">
                 <h5 className="mb-0">{doctor.name}</h5>
                 <small>{doctor.specialization}</small>
-                <small>Time: {doctor.availabilty_start_time} to {doctor.availabilty_end_time}</small>
+                <small>Time: {doctor.availability_start_time} to {doctor.availability_end_time}</small>
                 <div
                   className="mt-4 apointment"
                   onClick={() => {

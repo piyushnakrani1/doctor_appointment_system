@@ -174,7 +174,7 @@
 }
 
 .slot.disabled {
-  background-color: #b1b1b1;
+  background-color: #9e9e9e;
   color: #ffffff;
   cursor: not-allowed;
 }

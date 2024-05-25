@@ -3,10 +3,18 @@ from rest_framework import serializers
 from .models import Doctor, Appointment, Patient
 
 class DoctorSerializer(serializers.ModelSerializer):
+
+    availability_start_time = serializers.SerializerMethodField()
+    availability_end_time = serializers.SerializerMethodField()
     class Meta:
         model = Doctor
-        fields = '__all__'
+        fields = ["id","name","specialization","availability_start_time","availability_end_time"]
 
+    def get_availability_start_time(self, obj):
+        return obj.availabilty_start_time.strftime('%I:%M %p')
+
+    def get_availability_end_time(self, obj):
+        return obj.availabilty_end_time.strftime('%I:%M %p')
 class PatientSerializer(serializers.ModelSerializer):
     class Meta:
         model = Patient
